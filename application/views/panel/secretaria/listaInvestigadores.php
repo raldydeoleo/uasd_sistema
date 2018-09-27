@@ -31,12 +31,9 @@
                         <th>Nombre</th>
                         <th>Apellido</th>
                         <th>Título</th>
-                        <th>Area</th>
-                        <th>Direccion</th>
-                        <th>Ciudad</th>
+                       <th>Area</th>                      
                         <th>Telefono</th>
                         <th>Email</th>
-                        <th>Trabaja en</th>
                         <th>Accion</th>
                     </tr>
                 </thead>
@@ -50,12 +47,10 @@
                     <td style=""> <?php echo $estudiante->nombre_estudiante ?> </td>
                     <td style=""> <?php echo $estudiante->apellido_estudiante?> </td>
                     <td style=""> <?php echo$estudiante->matricula_estudiante ?> </td>                    
-                    <td style=""> <?php echo$estudiante->id_carrera ?> </td>
-                    <td style=""> <?php echo $estudiante->direccion_estudiante ?> </td>
-                    <td style=""> <?php echo $estudiante->ciudad_estudiante ?> </td>
+                    <td style=""> <?php echo$estudiante->id_carrera ?> </td>                    
                     <td style=""> <?php echo $estudiante->telefono_estudiante ?> </td>
                     <td style=""> <?php echo $estudiante->email_estudiante ?> </td>
-                    <td style=""> <?php echo $estudiante->empresa_estudiante ?> </td>
+                    
                     
                     
                     <td>
